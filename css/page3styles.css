@@ -1,0 +1,215 @@
+/* All comments go between the front slash and asterisk symbols *//* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color: #002E6D;   /* background color */
+	color: #FFFFFF;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.h1 { 
+	text-align: center;     /* centers h1 and h2 content */
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 22px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.h2 { 
+	text-align: center;     /* centers h1 and h2 content */
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+	
+.headbar {
+	background-color:#CF3339;
+	width:auto;
+	padding: 10px;
+	display: flex;
+	
+}
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width:1100px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:15px;
+	text-align:left;
+	font-size: 20px;
+	background-color:#CF3339;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	display:flex;
+	width:auto;
+	border-radius:5px 5px 0px 0px;
+ }
+
+.stepContent{ 
+	background-color:white;
+	color:#002E6D;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:30px;
+	padding-bottom:30px;
+	display:block;
+	justify-content:center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:0px 0px 5px 5px;
+}
+.stepContenta{ 
+	background-color:white;
+	color:#002E6D;
+	padding-left:0px;
+	padding-right:15px;
+	padding-top:30px;
+	padding-bottom:30px;
+	display:flex;
+	justify-content:center;
+	border-radius:0px 0px 0px 0px;
+}
+
+.stepDescription {
+	width:90%;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 50px;
+	text-align:left;
+}
+
+.stepImage {
+	width:35%;	
+	padding:0px;
+	text-align:center;
+	border-radius:5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.captivate {
+	align:center;
+	justify-content: center;
+	align-content: stretch;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 0px;
+	width:1020px;
+	height:595px;
+}
+
+.warning {
+		font-color:white;
+		font-size:16px;
+		background-color:#D55204;
+		padding-left:30px;
+		padding-right:30px;
+		padding-top:20px;
+		padding-bottom:15px;
+		border-radius:5px;
+		box-shadow: 0 15px 10px -15px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+		display:flex;
+		flex-direction: row;
+  		justify-content: space-between;
+	}
+.right1{
+	align-content: center;
+	max-width: 80%;
+	margin-left:70px;
+}
+
+.left1{
+	align-content: center;
+	max-width: 20%;
+	margin-right: 40px;
+}
+.right {
+	max-width: 92%;
+	margin-left: 5px;
+	align-content: center;
+}
+
+.left{
+	max-width:8%;
+	margin-right:10px;
+	align-content: center;
+}
+
+.material-icons{
+	color:white; 
+	font-size:1.3em;
+	margin-left:5px;
+	margin-right:20px;
+}
+
+#topNav {
+	width: auto;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+	background-color: white;
+	font-color:#002E6D;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#topNav li {
+  display: inline-block;}
+
+#topNav a {
+	float:left;
+	padding: 10px 30px 10px 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #002E6D; 
+	height: auto;
+}
+
+#topNav a:hover {
+ 	background-color: #CF3339;
+	color:white;
+	height:auto;
+	}
+
+.backbutton{
+	color:white;
+	font-size:18px;
+	text-align: center;
+	padding-left:200px;
+	padding-right: 200px;
+	text-shadow: 2px 2px 4px #000000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+
+.nextbutton{
+	color:white;
+	font-size: 18px;
+	text-align: center;
+	padding-left:200px;
+	padding-right: 200px;
+	text-shadow: 2px 2px 4px #000000;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.bottomnav{
+	display: flex;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.footer {
+	text-align: center;
+	padding: 20px;
+	color:white;
+	justify-content: center;
+}
